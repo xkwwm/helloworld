@@ -1,4 +1,4 @@
-FROM docker.oa.com:8080/public/golang:latest
+FROM docker.oa.com:8080/library/golang:latest
 RUN mkdir -p /data/helloworld
 COPY . /data/helloworld/ 
 RUN cd /data/helloworld \
